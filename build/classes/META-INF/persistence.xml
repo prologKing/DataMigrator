@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="DataMigratorPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.migration.ProductAgentHierarchy</class>
+    <class>com.migration.UsersRight</class>
+    <class>com.migration.BranchTb</class>
+    <class>com.migration.BranchType</class>
+    <class>com.migration.ProductAgentsTb</class>
+    <class>com.migration.ProDuctAgentLevel</class>
+    <class>com.migration.UsersTb</class>
+    <class>com.migration.DeparmentTb</class>
+    <class>com.migration.CompanyTb</class>
+    <class>com.entity.UsersPriviledge</class>
+    <class>com.entity.UsersTabs</class>
+    <class>com.source1.entity.ProductTeamTb</class>
+    <class>com.source1.entity.ComboTable</class>
+    <class>com.source1.entity.AosTeamTb</class>
+    <class>com.source1.entity.AosAgentsTb</class>
+    <class>com.source2.entity.EasyappTeamTb</class>
+    <class>com.source2.entity.EasyappAgentsTb</class>
+    <class>com.source3.entity.EazylifeCustomerTb</class>
+    <class>com.source2.entity.EazyappCustomerTb</class>
+    <class>com.source1.entity.AosCustomerTb</class>
+    <class>com.destination1.entity.BranchType</class>
+    <class>com.destination1.entity.UsersTb</class>
+    <class>com.destination1.entity.UsersRight</class>
+    <class>com.destination1.entity.ProductAgentsTb</class>
+    <class>com.destination1.entity.ProductAgentHierarchy</class>
+    <class>com.destination1.entity.BranchTb</class>
+    <class>com.destination1.entity.BranchMapping</class>
+    <class>com.destination1.entity.DeparmentTb</class>
+    <class>com.destination1.entity.CompanyTb</class>
+    <class>com.destination1.entity.TeamIdMapping</class>
+    <class>com.destination1.entity.AgentCodeMapping</class>
+    <class>com.destination1.entity.ComboTable</class>
+    <class>com.destination1.entity.ProDuctAgentLevel</class>
+    <class>com.destination2.entity.CustomerTb</class>
+    <class>com.destination2.entity.CustomerIdMapping</class>
+    <class>com.destination2.entity.PayDetl</class>
+    <class>com.destination2.entity.PolhDetl</class>
+    <class>com.source1.entity.AosPolicyDetails</class>
+    <class>com.source2.entity.EazyappPolicyDetails</class>
+    <class>com.source3.entity.EazylifePolicyDetails</class>
+    <class>com.destination2.entity.BeneficiaryTb</class>
+    <class>com.destination2.entity.PolhDependtDtl</class>
+    <class>com.source3.entity.EazylifeTeamTb</class>
+    <class>com.source3.entity.EazylifeAgentsTb</class>
+    <class>com.source1.entity.AosBenefTb</class>
+    <class>com.source1.entity.AosDependTb</class>
+    <class>com.source2.entity.EazylifeDependTb</class>
+    <class>com.source2.entity.EazyappBenefTb</class>
+    <class>com.source2.entity.EazyappDependTb</class>
+    <class>com.source3.entity.EazylifeDependTb</class>
+    <class>com.source3.entity.EazylifeBenefTb</class>
+    <class>com.source1.entity.AosTrustTb</class>
+    <class>com.source2.entity.EazyappTrustTb</class>
+    <class>com.source3.entity.EazylifeTrustTb</class>
+    <class>com.source1.entity.ProductTransSusuTb</class>
+    <class>com.destination2.entity.PolStartDateTb</class>
+    <class>com.destination2.entity.PremResv</class>
+    <class>com.destination2.entity.PolhClmInit</class>
+    <class>com.destination2.entity.PolhClmPro</class>
+    <class>com.destination2.entity.PolhClmBen</class>
+    <class>com.source1.entity.AosClaims</class>
+    <class>com.destination1.entity.ProductBankBranchTb</class>
+    <class>com.destination2.entity.AgentIdList</class>
+    <class>com.destination2.entity.PremPayment</class>
+    <class>com.destination2.entity.PolhDetlDue</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/allzmenu?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="BoLaJi007"/>
+    </properties>
+  </persistence-unit>
+</persistence>
